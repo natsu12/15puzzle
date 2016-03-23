@@ -57,7 +57,7 @@ h1 {
 .block0 {
     left: 1px;
     top: 1px;
-    -webkit-transition: all 0.5s;
+    -webkit-transition: all 0.2s;
 }
 
 .block0:hover {
@@ -68,7 +68,7 @@ h1 {
 .block1 {
  	left: 89px;
 	top: 1px;
-	-webkit-transition: all 0.5s;
+	-webkit-transition: all 0.2s;
 }
 
 .block1:hover {
@@ -79,7 +79,7 @@ h1 {
 .block2 {
     left: 177px;
 	top: 1px;
-	-webkit-transition: all 0.5s;
+	-webkit-transition: all 0.2s;
 }
 
 .block2:hover {
@@ -90,7 +90,7 @@ h1 {
 .block3 {
     left: 265px;
 	top: 1px;
-	-webkit-transition: all 0.5s;
+	-webkit-transition: all 0.2s;
 }
 
 .block3:hover {
@@ -101,7 +101,7 @@ h1 {
 .block4 {
     left: 1px;
 	top: 89px;
-	-webkit-transition: all 0.5s;
+	-webkit-transition: all 0.2s;
 }
 
 .block4:hover {
@@ -112,7 +112,7 @@ h1 {
 .block5 {
     left: 89px;
     top: 89px;
-    -webkit-transition: all 0.5s;
+    -webkit-transition: all 0.2s;
 }
 
 .block5:hover {
@@ -123,7 +123,7 @@ h1 {
 .block6 {
     left: 177px;
 	top: 89px;
-	-webkit-transition: all 0.5s;
+	-webkit-transition: all 0.2s;
 }
 
 .block6:hover {
@@ -134,7 +134,7 @@ h1 {
 .block7 {
     left: 265px;
 	top: 89px;
-	-webkit-transition: all 0.5s;
+	-webkit-transition: all 0.2s;
 }
 
 .block7:hover {
@@ -145,7 +145,7 @@ h1 {
 .block8 {
     left: 1px;
 	top: 177px;
-	-webkit-transition: all 0.5s;
+	-webkit-transition: all 0.2s;
 }
 
 .block8:hover {
@@ -156,7 +156,7 @@ h1 {
 .block9 {
     left: 89px;
 	top: 177px;
-	-webkit-transition: all 0.5s;
+	-webkit-transition: all 0.2s;
 }
 
 .block9:hover {
@@ -167,7 +167,7 @@ h1 {
 .block10 {
     left: 177px;
     top: 177px;
-    -webkit-transition: all 0.5s;
+    -webkit-transition: all 0.2s;
 }
 
 .block10:hover {
@@ -178,7 +178,7 @@ h1 {
 .block11 {
     left: 265px;
 	top: 177px;
-	-webkit-transition: all 0.5s;
+	-webkit-transition: all 0.2s;
 }
 
 .block11:hover {
@@ -189,7 +189,7 @@ h1 {
 .block12 {
     left: 1px;
 	top: 265px;
-	-webkit-transition: all 0.5s;
+	-webkit-transition: all 0.2s;
 }
 
 .block12:hover {
@@ -200,7 +200,7 @@ h1 {
 .block13 {
     left: 89px;
 	top: 265px;
-	-webkit-transition: all 0.5s;
+	-webkit-transition: all 0.2s;
 }
 
 .block13:hover {
@@ -211,7 +211,7 @@ h1 {
 .block14 {
     left: 177px;
     top: 265px;
-    -webkit-transition: all 0.5s;
+    -webkit-transition: all 0.2s;
 }
 
 .block14:hover {
@@ -222,7 +222,7 @@ h1 {
 .block15 {
     left: 265px;
     top: 265px;
-    -webkit-transition: all 0.5s;
+    -webkit-transition: all 0.2s;
 }
 
 .block15:hover {
