@@ -1,0 +1,461 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Tahoma, sans-serif;
+    background-image: url("background.jpg");
+}
+h1 {
+	text-align: center;
+	font-size: 25pt;
+	font-weight: bold;
+	font-style: italic;
+}
+#puzzle {
+	width: 352px;
+	height: 352px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+}
+#button {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 18px;
+	padding-top: 9px;
+	width: 120px;
+	height: 31px;
+	border: none;
+	background-color: rgb(66,134,245);
+	box-shadow: 5px 5px 10px rgb(148,148,148);
+	 cursor: pointer;
+  display: none;
+}
+
+#button:hover {
+	margin-top: 19px;
+	width: 122px;
+	height: 33px;
+}
+
+#restart {
+	text-align: center;
+	margin: 0px;
+	color: rgb(250,254,252);
+	font-size: 21px;
+}
+
+.block0, .block1, .block2, .block3, .block4, .block5, .block6, .block7,.block8, .block9, .block10, .block11,  .block12, .block13, .block14, .block15{
+	position: absolute;
+	margin: 0px;
+	display: inline-block;
+	width: 86px;
+	height: 86px;
+	cursor: pointer;
+}
+
+.block0 {
+    left: 1px;
+    top: 1px;
+    -webkit-transition: all 0.5s;
+}
+
+.block0:hover {
+	left: 0px;
+	top: 0px;
+}
+
+.block1 {
+ 	left: 89px;
+	top: 1px;
+	-webkit-transition: all 0.5s;
+}
+
+.block1:hover {
+	left: 88px;
+	top: 0px;
+}
+
+.block2 {
+    left: 177px;
+	top: 1px;
+	-webkit-transition: all 0.5s;
+}
+
+.block2:hover {
+	left: 176px;
+	top: 0px;
+}
+
+.block3 {
+    left: 265px;
+	top: 1px;
+	-webkit-transition: all 0.5s;
+}
+
+.block3:hover {
+	left: 264px;
+	top: 0px;
+}
+
+.block4 {
+    left: 1px;
+	top: 89px;
+	-webkit-transition: all 0.5s;
+}
+
+.block4:hover {
+	left: 0px;
+	top: 88px;
+}
+
+.block5 {
+    left: 89px;
+    top: 89px;
+    -webkit-transition: all 0.5s;
+}
+
+.block5:hover {
+	left: 88px;
+	top: 88px;
+}
+
+.block6 {
+    left: 177px;
+	top: 89px;
+	-webkit-transition: all 0.5s;
+}
+
+.block6:hover {
+	left: 176px;
+	top: 88px;
+}
+
+.block7 {
+    left: 265px;
+	top: 89px;
+	-webkit-transition: all 0.5s;
+}
+
+.block7:hover {
+	left: 264px;
+	top: 88px;
+}
+
+.block8 {
+    left: 1px;
+	top: 177px;
+	-webkit-transition: all 0.5s;
+}
+
+.block8:hover {
+	left: 0px;
+	top: 176px;
+}
+
+.block9 {
+    left: 89px;
+	top: 177px;
+	-webkit-transition: all 0.5s;
+}
+
+.block9:hover {
+	left: 88px;
+	top: 176px;
+}
+
+.block10 {
+    left: 177px;
+    top: 177px;
+    -webkit-transition: all 0.5s;
+}
+
+.block10:hover {
+	left: 176px;
+	top: 176px;
+}
+
+.block11 {
+    left: 265px;
+	top: 177px;
+	-webkit-transition: all 0.5s;
+}
+
+.block11:hover {
+	left: 264px;
+	top: 176px;
+}
+
+.block12 {
+    left: 1px;
+	top: 265px;
+	-webkit-transition: all 0.5s;
+}
+
+.block12:hover {
+	left: 0px;
+	top: 264px;
+}
+
+.block13 {
+    left: 89px;
+	top: 265px;
+	-webkit-transition: all 0.5s;
+}
+
+.block13:hover {
+	left: 88px;
+	top: 265px;
+}
+
+.block14 {
+    left: 177px;
+    top: 265px;
+    -webkit-transition: all 0.5s;
+}
+
+.block14:hover {
+	left: 176px;
+	top: 264px;
+}
+
+.block15 {
+    left: 265px;
+    top: 265px;
+    -webkit-transition: all 0.5s;
+}
+
+.block15:hover {
+	left: 264px;
+	top: 264px;
+}
+
+#p0 {
+    border: 1px solid rgb(186,186,186);
+    z-index: 1;
+    background-image: url(panda.jpg);
+    background-position: 0px 0px;
+}
+
+#p0:hover {
+	width: 88px;
+	height: 88px;
+    z-index: 2;
+}
+
+#p1 {
+    border: 1px solid rgb(186,186,186);
+    z-index: 1;
+    background-image: url(panda.jpg);
+	background-position: -88px 0px;
+}
+
+#p1:hover {
+	width: 88px;
+	height: 88px;
+    z-index: 2;
+}
+
+#p2 {
+	border: 1px solid rgb(186,186,186);
+	z-index: 1;
+	background-image: url(panda.jpg);
+	background-position: -176px 0px;
+}
+
+#p2:hover {
+	width: 88px;
+	height: 88px;
+    z-index: 2;
+}
+
+#p3 {
+    border: 1px solid rgb(186,186,186);
+    z-index: 1;
+    background-image: url(panda.jpg);
+	background-position: -264px 0px;
+}
+
+#p3:hover {
+	width: 88px;
+	height: 88px;
+    z-index: 2;
+}
+
+#p4 {
+	border: 1px solid rgb(186,186,186);
+	z-index: 1;
+	background-image: url(panda.jpg);
+	background-position:  0px -88px;
+}
+
+#p4:hover {
+	width: 88px;
+	height: 88px;
+    z-index: 2;
+}
+
+#p5 {
+    border: 1px solid rgb(186,186,186);
+    z-index: 1;
+    background-image: url(panda.jpg);
+     background-position: -88px -88px;
+}
+
+#p5:hover {
+	width: 88px;
+	height: 88px;
+    z-index: 2;
+}
+
+#p6 {
+   	border: 1px solid rgb(186,186,186);
+   	z-index: 1;
+   	background-image: url(panda.jpg);
+	background-position: -176px -88px;
+}
+
+#p6:hover {
+	width: 88px;
+	height: 88px;
+    z-index: 2;
+}
+
+#p7 {
+   	border: 1px solid rgb(186,186,186);
+   	z-index: 1;
+   	background-image: url(panda.jpg);
+	background-position: -264px -88px;
+}
+
+#p7:hover {
+	width: 88px;
+	height: 88px;
+    z-index: 2;
+}
+
+#p8 {
+   	border: 1px solid rgb(186,186,186);
+   	z-index: 1;
+   	background-image: url(panda.jpg);
+	background-position: 0px -176px;
+}
+
+#p8:hover {
+	width: 88px;
+	height: 88px;
+    z-index: 2;
+}
+
+#p9 {
+   	border: 1px solid rgb(186,186,186);
+   	z-index: 1;
+   	background-image: url(panda.jpg);
+	background-position: -88px -176px;
+}
+
+#p9:hover {
+	width: 88px;
+	height: 88px;
+    z-index: 2;
+}
+
+#p10 {
+   	border: 1px solid rgb(186,186,186);
+   	z-index: 1;
+   	background-image: url(panda.jpg);
+    background-position: -176px -176px;
+}
+
+#p10:hover {
+	width: 88px;
+	height: 88px;
+    z-index: 2;
+}
+
+#p11 {
+   	border: 1px solid rgb(186,186,186);
+   	z-index: 1;
+   	background-image: url(panda.jpg);
+	background-position: -264px -176px;
+}
+
+#p11:hover {
+	width: 88px;
+	height: 88px;
+    z-index: 2;
+}
+
+#p12 {
+   	border: 1px solid rgb(186,186,186);
+   	z-index: 1;
+   	background-image: url(panda.jpg);
+	background-position:  0px -264px;
+}
+
+#p12:hover {
+	width: 88px;
+	height: 88px;
+    z-index: 2;
+}
+
+#p13 {
+   	border: 1px solid rgb(186,186,186);
+   	z-index: 1;
+   	background-image: url(panda.jpg);
+	background-position: -88px -264px;
+}
+
+#p13:hover {
+	width: 88px;
+	height: 88px;
+    z-index: 2;
+}
+
+#p14 {
+   	border: 1px solid rgb(186,186,186);
+   	z-index: 1;
+   	background-image: url(panda.jpg);
+    background-position: -176px -264px;
+}
+
+#p14:hover {
+	width: 88px;
+	height: 88px;
+    z-index: 2;
+}
+
+#p15 {
+	border: none;
+	width: 88px;
+	height: 88px;
+	cursor: auto;
+}
+
+#tip {
+	width: 20px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+}
+
+.wrap {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.example {
+  width: 200px;
+}
+
+.success {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
