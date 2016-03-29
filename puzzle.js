@@ -1,3 +1,13 @@
+function IsPC()  
+{  
+    var userAgentInfo = navigator.userAgent;  
+    var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");  
+    var flag = true;  
+    for (var v = 0; v < Agents.length; v++) {  
+       if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }  
+    }  
+    return flag;  
+}       
 function onclickEvent(event) {
 	var target = event.target;
     var tc = target.className;
@@ -159,8 +169,11 @@ function onloadEvent() {
         frag.appendChild(puz);
 	}
 	mydiv.appendChild(frag);
-	mydiv.addEventListener("click", onclickEvent, false);
-	mybtn.addEventListener("click", onbtnclick, false);
+  if (IsPC()) {
+    mydiv.addEventListener("click", onclickEvent, false);
+  } else {
+    mydiv.addEventListener("touchstart", onclickEvent, false);
+  }
   onbtnclick();
 }
 
