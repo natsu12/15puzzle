@@ -65,7 +65,7 @@ function onclickEvent(event) {
 
 function onbtnclick(event) {
 	var last = document.getElementById("p15");
-	for (var i = 0; i < 150; i++) {
+	for (var i = 0; i < 200; i++) {
 		var la = last.className;
 		var cur;
 	    if (la=="block0") cur = 0;
